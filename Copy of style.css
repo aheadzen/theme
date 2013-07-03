@@ -1,0 +1,392 @@
+/*  
+Theme Name: Bazar Child
+Theme URI: http://demo.yithemes.com/bazar/
+Version: 1.4.1
+Description: Shop Wordpress Theme
+Author: Your Inspiration Themes
+Author URI: http://yithemes.com
+Tags: white, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, flexible-width, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-image-header, featured-images, front-page-post-form, full-width-template, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+template: bazar
+
+	Copyright: (c) 2012 Your Inspiration Themes.
+	License: GNU General Public License v3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.txt
+
+*/
+
+@import url("../bazar/style.css");
+
+/* Below you can write your style */
+
+/* Below you can write your style */
+.clearboth{clear:both; width:100%;}
+
+div#zodiactable{clear:both;max-width: 450px;}
+.dailyhoro ul li{list-style:none;}
+.dailyhoro ul li.zodiac a{ font-size:0;}
+.dailyhoro ul li.zodiac{float:left; padding:5px;} 
+.dailyhoro .aries a div{background: url(images/zodiac/aries.png) no-repeat 0 0; height:100px; width:90px;}
+.dailyhoro .taurus a div{background: url(images/zodiac/taurus.png) no-repeat 0 0; height:100px; width:90px;}
+.dailyhoro .gemini a div{background: url(images/zodiac/gemini.png) no-repeat 0 0; height:100px; width:90px;}
+.dailyhoro .cancer a div{background: url(images/zodiac/cancer.png) no-repeat 0 0; height:100px; width:90px;}
+.dailyhoro .leo a div{background: url(images/zodiac/leo.png) no-repeat 0 0; height:100px; width:90px;}
+.dailyhoro .virgo a div{background: url(images/zodiac/virgo.png) no-repeat 0 0; height:100px; width:90px;}
+.dailyhoro .libra a div{background: url(images/zodiac/libra.png) no-repeat 0 0; height:100px; width:90px;}
+.dailyhoro .scorpio a div{background: url(images/zodiac/scorpio.png) no-repeat 0 0; height:100px; width:90px;}
+.dailyhoro .sagittarius a div{background: url(images/zodiac/sagittarius.png) no-repeat 0 0; height:100px; width:90px;}
+.dailyhoro .capricorn a div{background: url(images/zodiac/capricorn.png) no-repeat 0 0; height:100px; width:90px;}
+.dailyhoro .aquarius a div{background: url(images/zodiac/aquarius.png) no-repeat 0 0; height:100px; width:90px;}
+.dailyhoro .pisces a div{background: url(images/zodiac/pisces.png) no-repeat 0 0; height:100px; width:90px;}
+
+/***********************/
+#zmenul li.horoscopes{float:left; list-style:none; width:32%;} 
+
+.message.notification,#sharing ul li.report a {color: #CA6B1C; font-family: 'Play',sans-serif; font-size: 12px; font-style: normal; font-weight: 400;border: 1px solid #E5AF51;border-radius: 6px 6px 6px 6px;margin: 2px 0 15px;padding: 20px 10px;background-color:#FBDD96;width:97%;}
+.message.notification a{font-size: 20px; text-align:center;}
+
+#commentform input#submit { border: 1px solid #17324e; text-transform: uppercase; font-size: 13px; font-weight: normal; margin-top: 10px; padding:5px 10px; }
+
+#xsnazzy div#zmenu{clear:both;}
+#xsnazzy div#zmenu ul li{ float:left; width:30%; list-style:none;}
+#xsnazzy div#zmenu ul li ul li{width:100%;}
+#xsnazzy div#zmenu ul li ul li{list-style: square outside none;}
+
+#zoptions{clear:both; padding:10px 0;}
+#zoptions #zmenu ul#zodiacul li{list-style:none;}
+#zoptions #zmenu ul#zodiacul li ul li{list-style: square outside none;}
+
+#zoptions #zmenu #zodiacul{ float:left; width:97%;}
+.zodiacbox1 #xsnazzy #zodiacnav{float:left; width:60%;}
+.zodiacbox1 #xsnazzy #zodiacnav.dailyhoro{float:left; width:65%;}
+.zodiacbox1 #xsnazzy #zodiacnav h3{margin-left:25px; font-size:20px; margin-top:0;}
+
+#sharing{-webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; padding:15px; border:solid 1px;margin: 25px 0;}
+#sharing ul{list-style:none;}
+#sharing ul li.report{margin-top:20px;}
+#sharing ul li.report a{ width:200px; padding:10px 20px;}
+
+ul#futureNav { padding:10px 10px 35px;}
+ul#futureNav li{float:left; width:25%;}
+ul#futureNav li a.current{border-bottom:2px double;}
+ul#formElements li{list-style:none;}
+
+.dailyhoro_home.dailyhoro{clear:both;max-width: 550px;}
+.dailyhoro_home.dailyhoro li{width:100px !important;}
+div.homenav{float:left;}
+
+.homenav ul#homeul li{width:40% !important;}
+.homenav ul#homeul li ul li{width:100% !important;}
+
+/****bbpress****/
+.pagination-links a{padding:5px 7px; border:solid 1px #CCCCCC;}
+.pagination-links span.current{padding:5px 7px; border:solid 1px #CCCCCC; background-color:#EEDDE4;}
+ul#groups-list li{list-style:none; clear:both; border-top:1px dotted #CCCCCC; padding-top:10px;}
+ul#groups-list li div.clearboth{clear:none;}
+ul#groups-list li ul li{clear:none;}
+ul#groups-list li .item-avatar{float:left; margin-right:0; margin-bottom:5px;}
+ul#groups-list li .alignleft{float:left;}
+ul#groups-list li .clearboth.separator{border-bottom:2px dotted #BBCEE3; margin-bottom: 25px;padding: 5px 0;}
+#groups-list .item.alignleft{margin-top:0;width: 85%; margin-right:0; float:left; min-height:75px;}
+#groups-list .item.alignleft .title h3{ margin-top:0;}
+ul.item-list li.vcard{margin-bottom:10px; clear:both; padding-bottom:20px;}
+#item-buttons ul li{list-style:none;}
+#item-header-content{width: 65%; margin-left:10px; margin-top:0;}
+.profile-fields td{vertical-align:top;}
+
+.alignright, img.alignright{float:left;margin-left: 35px;}
+#whats-new-content #whats-new-textarea, #whats-new-content #whats-new-options{float:left; margin-left:20px;}
+#whats-new-content #whats-new-textarea{margin-left:0;}
+#whats-new-options #whats-new-submit{float: left;margin-top: 50px;position: absolute;}
+#whats-new-options #whats-new-post-in-box{ margin-bottom:20px;}
+.activity .pagination .pag-count{ padding:0 10px; text-align:right;}
+.pagination{ height:auto; text-align:right;}
+.pagination .pagination-links {margin-top: 15px;margin-bottom:20px; float:right;}
+.activity-comments form{ margin:0 0 10px;}
+ul.activity-list{list-style:none;}
+ul.activity-list li{  border:1px dashed #CCCCCC;margin-bottom: 5px;padding: 10px 5px 3px;}
+ul.activity-list li .activity-content{}
+.activity-inner div.alignright{ margin-top:0; margin-right:10px;}
+.activity-inner a.button.fav{}
+.dir-search{margin-left:0;}
+.dir-search form{margin:0;}
+
+ul.item-list li{ border-top: 1px dotted #CCCCCC;list-style: none outside none;padding-top: 10px;}
+ul.item-list li .item-avatar{ float: left;margin-right: 15px;}
+ul.item-list li .item{ margin-top:0;}
+ul.item-list li .item .item-title h3{ margin-top:0; margin-bottom:5px;}
+ul.item-list li .action{ float:right;}
+ul.item-list li .action .generic-button{ text-align:right;}
+ul.item-list li .avatar{ float:left; margin-right:15px; margin-bottom: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px; border:1px dotted #E0DFDF; padding:5px;}
+ul.item-list li h3{margin-top:0px; margin-bottom:5px;}
+ul.item-list li .item-avatar{ float:left;}
+
+div.sendgift-panel{background:none !important;border: 1px dashed #CCCCCC;}
+
+.item-list-tabs{clear:both; margin-bottom:20px; padding-bottom:5px; padding-top:35px;}
+#subnav.item-list-tabs{ padding-bottom: 25px; margin-bottom:30px;}
+.item-list-tabs ul li{ float:left; list-style:none; padding:5px 10px; border:dotted 1px #ECE6E9;}
+.item-list-tabs ul li.last{border:none;}
+.item-list-tabs ul li.current{ border-bottom:2px solid #652C40;}
+.item-list-tabs ul li span{ color:#000000; font-size:15px; margin-left:2px; background:#EEE6E9; padding:2px 5px; -webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;}
+#item-body{clear:both; padding-top:10px;}
+.ass-email-type{ margin-bottom:15px;}
+.ass-email-type input{margin-right: 10px; margin-top:0;}
+#item-body .radio input[type="radio"], #item-body .checkbox input[type="checkbox"] {float: none;margin-left: 0; margin-right: 5px; margin-top:0;}
+#item-body label{ padding-top: 10px; clear: both;}
+#item-body .radio{padding-left:0;}
+#item-body .radio ul{ padding-left:20px;}
+.profile-fields td{background:none; color:#747373; text-shadow:0 0 0 rgba(0, 0, 0, 0.25); padding-right:15px;vertical-align: middle;}
+#message.info{ border:dashed 1px #E2E2E2; padding:10px; background:#FFFFFF;}
+ul#groups-list li .clearboth.separator{border:none; margin:0; padding:0;}
+
+.group-members .pagination .pag-count{ margin-bottom:10px;}
+ul.qmeta,pagination-links.alignright {margin-left:0;}
+
+.woocommerce .sidebar-left .sidebar, .woocommerce .sidebar-right .content, .woocommerce-cart #content-page, .woocommerce-checkout #content-page{ float:right;}
+.woocommerce .sidebar-right .sidebar, .woocommerce .sidebar-left .content, .woocommerce-cart #sidebar-default-sidebar, .woocommerce-checkout #sidebar-default-sidebar {float: left;}
+
+.woocommerce .span12 {width: 75%;}
+.woocommerce .span4 {width: 95%;}
+.product-extra.span9{ float:right;}
+.blog-bazar .blog-bazar-header,.blog-bazar:first-child .the-content{width:94%;}
+
+#wpadminbar .ab-top-menu > .menupop > .ab-sub-wrapper{width:280px;}
+#wp-admin-bar-user-info, .ab-item.ab-empty-item{margin-top:10px !important;}
+.clearboth{clear:both !important;}
+.bbuser_info_admintop {float: right;min-height: 110px; position: relative; width: 100% !important; clear:both;}
+.bbuser_info_admintop .alignleft{float:left!important; width:40% !important;}
+.bbuser_info_admintop .alignright{float:right!important; width:60% !important;}
+#wpadminbar .quicklinks .menupop ul li{float:left !important;}
+#wp-admin-bar-user-info .avatar {left:0!important;position:relative !important; width:60px !important; text-align:left;}
+
+.ab-item img.avatar{  margin-right: 15px !important; width: 25px !important;}
+.caroufredsel_wrapper ul.products li.product{6.7%}
+
+
+/*********Comment Bubble Start****************/
+.comments{width:100%;}
+.comments .triangle-right{width:80%;}
+.comments .left {float:left;}
+.comments .right {float:right;}
+.triangle-right {position:relative;padding:15px;margin:1em 0 3em;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;}
+
+/* Variant : for top positioned triangle
+------------------------------------------ */
+.triangle-right.top {
+background:-webkit-gradient(linear, 0 0, 0 100%, from(#075698), to(#2e88c4));
+background:-moz-linear-gradient(#075698, #2e88c4);
+background:-o-linear-gradient(#075698, #2e88c4);
+background:linear-gradient(#075698, #2e88c4);
+}
+
+/* Variant : for left positioned triangle
+------------------------------------------ */
+.triangle-right.left {margin-left:40px; margin-bottom:0px !important;}
+
+/* Variant : for right positioned triangle
+------------------------------------------ */
+.triangle-right.right {margin-right:40px;border-top: 2px solid #CEA558;}
+
+/* THE TRIANGLE --------------- */
+.triangle-right:after {
+	content:"";
+	position:absolute;
+	bottom:-20px; /* value = - border-top-width - border-bottom-width */
+	left:50px; /* controls horizontal position */
+	border-width:20px 0 0 20px; /* vary these values to change the angle of the vertex */
+	border-style:solid;
+	border-color:#075698 transparent; 
+    /* reduce the damage in FF3.0 */
+    display:block; 
+    width:0;
+}
+
+/* Variant : top
+------------------------------------------ */
+.triangle-right.top:after {
+	top:-20px; /* value = - border-top-width - border-bottom-width */
+	right:50px; /* controls horizontal position */
+	bottom:auto;
+	left:auto;
+	border-width:20px 20px 0 0; /* vary these values to change the angle of the vertex */
+	border-color:transparent #075698; 
+}
+
+/* Variant : left
+------------------------------------------ */
+.triangle-right.left:after {
+	top:auto; 
+	left:-20px; /* value = - border-left-width - border-right-width */
+	bottom:8px;
+	border-width:10px 20px 0 0; /* vary these values to change the angle of the vertex */
+	border-color:transparent #075698; 
+}
+
+/* Variant : right
+------------------------------------------ */
+.triangle-right.right:after {
+	top:auto; 
+	right:-20px; /* value = - border-left-width - border-right-width */
+	bottom:8px;
+    left:auto;
+	border-width:10px 0 0 20px; /* vary these values to change the angle of the vertex */
+	border-color:transparent #075698 ; 
+}
+
+/******************************************************/
+
+.blue{
+	background:#075698; /* default background for browsers without gradient support */
+	/* css3 */
+	/*background:-webkit-gradient(linear, 0 0, 0 100%, from(#2e88c4), to(#075698));
+	background:-moz-linear-gradient(#2e88c4, #075698);
+	background:-o-linear-gradient(#2e88c4, #075698);
+	background:linear-gradient(#2e88c4, #075698);*/
+	background:-webkit-gradient(linear, 0 0, 0 100%, from(#FCF7E3), to(#F2EDDA));
+	background:-moz-linear-gradient(#FCF7E3, #F2EDDA);
+	background:-o-linear-gradient(#FCF7E3, #F2EDDA);
+	background:linear-gradient(#FCF7E3, #F2EDDA);
+}
+.triangle-right.blue.right:after,.triangle-right.blue.left:after { border-color: transparent #F2EDDA;}
+
+.orange{
+	background:#f3961c; /* default background for browsers without gradient support */
+	/* css3 */
+	/*background:-webkit-gradient(linear, 0 0, 0 100%, from(#f9d835), to(#f3961c));
+	background:-moz-linear-gradient(#f9d835, #f3961c);
+	background:-o-linear-gradient(#f9d835, #f3961c);
+	background:linear-gradient(#f9d835, #f3961c);*/
+	
+	background:-webkit-gradient(linear, 0 0, 0 100%, from(#F8F8F0), to(#FCF7E3));
+	background:-moz-linear-gradient(#F8F8F0, #FCF7E3);
+	background:-o-linear-gradient(#F8F8F0, #FCF7E3);
+	background:linear-gradient(#F8F8F0, #FCF7E3);
+}
+
+.triangle-right.orange.right:after,.triangle-right.orange.left:after {border-color: transparent #FCF7E3;}
+
+.sky{
+	color:#000;
+	background:#00A3EF; /* default background for browsers without gradient support */
+	/* css3 */
+	background:-webkit-gradient(linear, 0 0, 0 100%, from(#88D4F7), to(#00A3EF));
+	background:-moz-linear-gradient(#88D4F7, #00A3EF);
+	background:-o-linear-gradient(#88D4F7, #00A3EF);
+	background:linear-gradient(#88D4F7, #00A3EF);
+}
+.triangle-right.sky.right:after,.triangle-right.sky.left:after {border-color: transparent #00A3EF;}
+
+.sky p,.orange p,.blue p{color:#555555 !important;}
+
+
+.comment .comment-container{margin-bottom:0 !important;}
+.triangle-right.right,.triangle-right.left{width:85%; margin-bottom:0;}
+.comment.depth-2 .comment-container .border.vertical-top-line, .comment.depth-3 .comment-container .border.vertical-top-line, .comment.depth-4 .comment-container .border.vertical-top-line, .comment.depth-5 .comment-container .border.vertical-top-line{border:none !important; height:1px !important; margin:0 !important; padding:0 !important;}
+.comment .comment-container .border.border-bottom-line{ border:none !important;}
+
+.commentlist .row{ margin-left:15px !important;}
+li.comment{margin-bottom:0 !important;}
+.offset1 {margin-left: 40px;}
+.offset2 {margin-left: 90px;}
+.offset3 {margin-left: 100px;}
+.offset4 {margin-left: 120px;}
+.left .comment-reply-link{ text-align:right;}
+/*********Comment Bubble End****************/
+#commentform .newsletter{ float:left;}
+.comments .left  img.avatar{ margin-left: -45px; float:left; margin-right:20px; margin-bottom:20px;}
+.comments .right  img.avatar{ margin-right: -45px; float:right; margin-left:20px;  margin-bottom:20px;}
+.comments .fn,.comments .fn a{font-size:22px; margin-right:5px;}
+.comments .date{ color:#ABABA4;}
+
+.comments .left .avatar-frame {
+    background-image: url("images/avatar-frame.png");
+    height: 87px;
+    position: absolute;
+    width: 82px;
+	margin-left: -56px;
+    top: 5px;
+}
+.comments .right .avatar-frame {
+	background-image: url("images/avatar-frame-right-admin.png");
+	height: 87px;
+    position: absolute;
+    width: 82px;
+    left: auto;
+    right: -40px;
+    top: 5px;
+}
+/*************************/
+@media screen and (min-width: 1150px){
+.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {max-width: 2000px; width: 98%;}
+.sidebar.sidebar_add{float:left; width:16%; margin-left:30px;}
+.span9 {width: 50%;}
+.span3{ width:27%;}
+.span12{width:79%;}
+.caroufredsel_wrapper .span3{width:200px;}
+#topbar .span12 {width: 98%;}
+}
+
+@media screen and (max-width: 1100px) {
+.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container{width: 975px;}
+.span3 { width: 20%;}
+.span9 {width: 53%;}
+}
+
+@media screen and (max-width: 940px) {
+.sidebar.sidebar_add{display:none;}
+.span9 {width: auto;}
+.span3{ width:auto;}
+
+#wp-admin-bar-root-default li a{padding:0 6px;}
+}
+
+@media screen and (min-width: 550px) and (max-width: 779px){
+#topbar{display:block;}
+
+#wp-admin-bar-root-default, #wp-admin-bar-top-secondary{clear:both; !important; width:100% !important; float:left !important; text-align:left !important;}
+#wpadminbar .quicklinks .ab-top-secondary > li{float:left !important;}
+#wpadminbar .ab-top-secondary .menupop .ab-sub-wrapper{right: auto !important; left: 0 !important;}
+#wpadminbar .ab-top-secondary .menupop .ab-sub-wrapper ul.ab-sub-secondary.ab-submenu .ab-sub-wrapper{right: auto !important; left: 100px !important;}
+#wp-admin-bar-root-default li a{padding:0 6px;}
+}
+
+@media screen and (max-width: 480px) { 
+.homenav ul#homeul li{width:100% !important;}
+.item-list-tabs ul li{ width: 90%;}
+.ac-reply-content.alignright{margin-left:0;}
+#whats-new-options #whats-new-submit{margin-top:0;}
+.settings-input.small{display:block;}
+.standard-form table td{display:block;}
+#xsnazzy div#zmenu ul li{ width:100%;}
+.single_variation_wrap{display:block !important;}
+
+#wp-admin-bar-root-default, #wp-admin-bar-top-secondary{clear:both; !important; width:100% !important; float:left !important; text-align:left !important;}
+#wpadminbar .quicklinks .ab-top-secondary > li{float:left !important;}
+#wpadminbar .ab-top-secondary .menupop .ab-sub-wrapper{right: auto !important; left: 0 !important;}
+#wpadminbar .ab-top-secondary .menupop .ab-sub-wrapper ul.ab-sub-secondary.ab-submenu .ab-sub-wrapper{right: auto !important; left: 100px !important;}
+#wp-admin-bar-root-default li a{padding:0 6px;}
+}
+
+@media screen and (max-width: 380px) { 
+#wp-admin-bar-root-default, #wp-admin-bar-top-secondary{clear:both; !important; width:100% !important; float:left !important; text-align:left !important;}
+#wpadminbar .quicklinks .ab-top-secondary > li{float:left !important;}
+#wpadminbar .ab-top-secondary .menupop .ab-sub-wrapper{right: auto !important; left: 0 !important;}
+#wpadminbar .ab-top-secondary .menupop .ab-sub-wrapper ul.ab-sub-secondary.ab-submenu .ab-sub-wrapper{right: auto !important; left: 100px !important;}
+#wp-admin-bar-root-default li a{padding:0 6px;}
+}
+
+@media screen and (max-width: 320px) { 
+#wp-admin-bar-root-default, #wp-admin-bar-top-secondary{clear:both; !important; width:100% !important; float:left !important; text-align:left !important;}
+#wpadminbar .quicklinks .ab-top-secondary > li{float:left !important;}
+#wpadminbar .ab-top-secondary .menupop .ab-sub-wrapper{right: auto !important; left: 0 !important;}
+#wpadminbar .ab-top-secondary .menupop .ab-sub-wrapper ul.ab-sub-secondary.ab-submenu .ab-sub-wrapper{right: auto !important; left: 100px !important;}
+#wp-admin-bar-root-default li a{padding:0 6px;}
+}
+
+@media screen and (max-width: 300px) { 
+#wp-admin-bar-root-default, #wp-admin-bar-top-secondary{clear:both; !important; width:100% !important; float:left !important; text-align:left !important;}
+#wpadminbar .quicklinks .ab-top-secondary > li{float:left !important;}
+#wpadminbar .ab-top-secondary .menupop .ab-sub-wrapper{right: auto !important; left: 0 !important;}
+#wpadminbar .ab-top-secondary .menupop .ab-sub-wrapper ul.ab-sub-secondary.ab-submenu .ab-sub-wrapper{right: auto !important; left: 100px !important;}
+#wp-admin-bar-root-default li a{padding:0 6px;}
+}
